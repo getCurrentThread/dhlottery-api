@@ -1,8 +1,8 @@
 from dhapi.domain.user import User
-from dhapi.endpoint.lottery_stdout_printer import LotteryStdoutPrinter
-from dhapi.endpoint.version_stdout_printer import VersionStdoutPrinter
+from dhapi.adapters.lottery_stdout_printer import LotteryStdoutPrinter
+from dhapi.adapters.version_stdout_printer import VersionStdoutPrinter
 from dhapi.meta.version_provider import VersionProvider
-from dhapi.port.lottery_client import LotteryClient
+from dhapi.services.lottery_client import LotteryClient
 from dhapi.purchase.lotto645_buy_confirmer import Lotto645BuyConfirmer
 
 

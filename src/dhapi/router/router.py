@@ -5,7 +5,7 @@ import typer
 from dhapi.config.logger import set_logger
 from dhapi.domain.deposit import Deposit
 from dhapi.domain.lotto645_ticket import Lotto645Ticket
-from dhapi.port.credentials_provider import CredentialsProvider
+from dhapi.adapters.credentials_provider import CredentialsProvider
 from dhapi.router.dependency_factory import build_lottery_client, build_version_provider, build_lotto645_buy_confirmer
 
 app = typer.Typer(
